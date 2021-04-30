@@ -1,0 +1,235 @@
+<!-- 
+  Jacob Carr 1/22/2021
+
+  Template Used: https://startbootstrap.com/theme/landing-page
+
+-->
+
+<!--
+====== MOD LOG ======
+
+===================
+  January 22, 2021
+===================
+Created first copy of the website based off of the template above. Removed most of the template from use.
+
+
+===================
+  January 27, 2021
+===================
+Added structure to the site using bootstrap.
+Did minor changes.
+Added a FAQ, doesn't work yet.
+
+
+===================
+   Febuary 3, 2021
+===================
+Ateempted to add another FAQ, didn't go well. Partially complete.
+Filled in details with latin.
+Added a Email list, working parially.
+
+
+===================
+  Febuary 10, 2021
+===================
+Add 2 New pages.
+Added a Register form on one of the new pages.
+Finalized and moved the Email list to a new page.
+Styled all the pages.
+Added a Carosel.
+
+
+===================
+  Febuary 17, 2021
+===================
+Removed the Carosel as it didnt fit with the site.
+Removed the functioallity of the FAQ, will be static.
+Added a favicon.
+Removed the latin and filled in details in paragraphs.
+Added new paragraphs.
+Fixed footer to have proper links.
+Added phone hyperlink in the FAQ.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Home | JC Softworks</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts -->
+  <link href="fonts/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="fonts/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles -->
+  <link href="css/landing-page.min.css" rel="stylesheet">
+  <link href="css/email_list.css" rel="stylesheet">
+
+   <!-- Main JavaScript -->
+   <script src="js/carousel.js"></script>
+
+   <!-- Favicon -->
+   <link rel="icon" 
+      type="image/png" 
+      href="images/favicon.ico">
+  
+
+</head>
+    
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-light bg-light static-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">JCSoftworks</a>
+        <a href="index.html" class="btn btn-primary">Home</a>
+        
+  
+      </div>
+    </nav>
+  
+    <!-- Masthead -->
+    <header class="masthead text-white text-center">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <h1 class="mb-5">Welcome to JCSoftworks</h1>
+          </div>
+          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+            <h4 class="mb-5">Providing all your Programming and Hardware Needs</h4>
+            <a href="index.html" class="btn btn-primary">Home</a>
+            <a class="btn btn-secondary" href="email.html">Email List</a>
+            <a class="btn btn-secondary" href="register.html">Register</a>
+            
+          </div>
+          <div>
+            
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <br>
+
+    <div class="container faq" id="faqJump">
+        <main id="faqs">
+          <h1>Commonly Asked Questions: </h1>
+        <h2>What is JCSoftworks?</h2>
+        <div>
+          <p>
+            JCSoftworks is company that solely focuses on Web Devolepment, Graphic Design, and Computer Hardware. We have been doing many jobs
+             in the industry for companies like Rugby and High Serra Custom Door. We look forward to helping you on your next project!
+          </p>
+        </div>
+        <h2>Why use JCSoftworks?</h2>
+        <div>
+          <p>JCSoftworks is a locally owned, solo operated company that thrives in the graphics, web based industries, and PC repair and building. If you need a website, PC, or an image done right, <a href="tel:+12085198390">call us</a> and we will give you a free quote for your order.
+          </p>
+        </div>
+        <h2>How Can This Company Help You?</h2>
+        <div>
+          <p>A few of the ways JCSoftworks can help is in image developement and web design. We make top notch, hand made, made to order products that you can use for lifetimes. 
+            We also specialize in computer repair and cusom builds. <a href="tel:+12085198390">Call us</a> for a free quote on a PC.
+          </p>
+        </div>
+        </main>
+      </div>
+      <br>
+   
+
+      
+
+<!--
+<body>   
+<main>
+    <h1 >Common Icons We Use</h1>
+    <div id="carousel" class="main">
+        <div id="left_button" class="button_panel"><img src="images/left.jpg" alt=""></div>
+        <div id="display_panel"> 
+            <ul id="image_list">
+                <li><a><img src="images/icon1.png" alt="HTML5 and CSS3"></a></li>
+                <li><a ><img src="images/icon2.png" alt="Java Servlets and JSP"></a></li>
+                <li><a ><img src="images/icon3.png" alt="JavaScript and jQuery"></a></li>
+                <li><a ><img src="images/icon4.png" alt="Android programming"></a></li>
+                <li><a ><img src="images/icon5.png" alt="MySQL"></a></li>
+                <li><a ><img src="images/icon6.png" alt="PHP and MySQL"></a></li>
+                <li><a ><img src="images/icon7.png" alt="Oracle SQL and PL/SQL"></a></li>
+                <li><a ><img src="images/icon8.png" alt="ASP.NET 4.6 web programming with C# 2015"></a></li>
+                <li><a ><img src="images/icon9.png" alt="SQL Server"></a></li>
+            </ul>
+        </div>
+        <div id="right_button" class="button_panel"><img src="images/right.jpg" alt=""></div>
+    </div>
+</main>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="js/carousel.js"></script>
+<br>
+-->
+  <!-- Footer -->
+  <footer class="footer bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+          <ul class="list-inline mb-2">
+            <li class="list-inline-item">
+              <a href="register.html">Register</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="email.html">Email List</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="index.html">What We Do</a>
+            </li>
+          </ul>
+          <p class="text-muted small mb-4 mb-lg-0">&copy; Jacob Carr 2021. All Rights Reserved.</p>
+        </div>
+        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item mr-3">
+              <a href="https://facebook.com/" target="_blank">
+                <i class="fab fa-facebook fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item mr-3">
+              <a href="https://twitter.com/" target="_blank">
+                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/" target="_blank">
+                <i class="fab fa-instagram fa-2x fa-fw"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  
+
+
+ 
+
+</body>
+
+</html>

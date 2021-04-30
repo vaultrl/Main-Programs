@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.faq {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 650px;
+	margin: 0 auto;
+}
+.faqsection {
+	padding: 15px 25px;
+}
+.faqh1 { 
+	font-size: 150%;
+	margin-bottom: .5em;
+}
+.faqul {
+	padding-left: 45px;
+}
+.faqli {
+	padding-bottom: .25em;
+}

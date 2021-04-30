@@ -1,0 +1,91 @@
+.email {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(241, 241, 241);
+    margin: auto;
+    width: 70%;
+    border: 3px solid grey;
+    padding: 2em;
+    text-align: center;
+    
+}
+
+
+.faq{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(241, 241, 241);
+    margin: auto;
+    width: 70%;
+    border: 3px solid grey;
+    padding: 2em;
+    text-align: center;
+
+    
+}
+h1 {
+    color: black;
+    text-align: center;
+}
+div {
+    margin-bottom: 1em;
+}
+label {
+    display: inline-block;
+    width: 11em;
+    text-align: right;
+}
+input {
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+span {
+    color: red;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+.main {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 85%;
+	margin: auto;
+	width: 415px;
+	height: 160px;
+	padding: 20px 0;	
+	border: 2px solid grey;
+}
+.mainh1 {
+	font-size: 140%;
+	margin-left: 55px;
+	margin-bottom: 10px;
+}
+/* the styles for the carousel */
+.button_panel	{
+	height: 125px;
+	padding: 50px 15px;
+	float: left;
+}
+.button_panel img {
+	width: 25px;
+	height: 25px;
+}
+#display_panel {
+	height: 125px;
+	width: 300px;
+	overflow: hidden;
+	float: left;
+}
+#image_list {
+	left: 0px;
+	position: relative;   
+    width: 900px;
+    list-style: none;  
+}
+#image_list li	{
+	float: left;
+	width: 100px;
+}
+#image_list li img	{
+	width: 95px;
+	
+}
