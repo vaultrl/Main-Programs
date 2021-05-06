@@ -50,7 +50,7 @@ animation-duration: 3s;
 animation-fill-mode: both;
 animation-iteration-count: infinite;
 animation-timing-function: linear;
-animation: drive 3s both infinite linear,
+animation: drive 3.8s both infinite linear,
           jump 0.3s 1.2s ease;
 }
 .luigi{
