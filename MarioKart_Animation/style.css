@@ -85,7 +85,7 @@ animation: drive 3s both infinite linear,
 
 @keyframes drive{
   from{ transform: translateX(-200px);}
-  to{ transform: translateX(1500px);}
+  to{ transform: translateX(1900px);}
 }
 
 @keyframes jump{
